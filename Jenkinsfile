@@ -21,8 +21,11 @@
 node {
 
     stage ('python') {
-        sh 'apt-get install python'
+        sh 'sudo apt-get install python'
+
         echo 'installation'
+
+        sh 'python --version'
     }
 
 
