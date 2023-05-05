@@ -1,6 +1,6 @@
 
 
-pipeline {
+/* pipeline {
     agent none 
     stages {
         stage('Build') { 
@@ -16,4 +16,19 @@ pipeline {
         }
     }
 }
+ */
 
+node {
+
+    stage 'Python'{
+        sh 'apt-get install python'
+        echo 'installation'
+    }
+
+
+
+
+
+
+
+}
