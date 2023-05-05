@@ -20,7 +20,7 @@
 
 node {
 
-    stage 'Python'{
+    stage ('python') {
         sh 'apt-get install python'
         echo 'installation'
     }
