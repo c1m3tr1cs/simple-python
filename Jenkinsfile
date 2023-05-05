@@ -1,6 +1,6 @@
 
 
-/* pipeline {
+pipeline {
     agent none 
     stages {
         stage('Build') { 
@@ -15,23 +15,4 @@
             }
         }
     }
-}
- */
-
-node {
-
-    stage ('python') {
-        sh 'sudo apt-get install python'
-
-        echo 'installation'
-
-        sh 'python --version'
-    }
-
-
-
-
-
-
-
 }
